@@ -1,0 +1,56 @@
+.img{
+    width: 100%;
+    transition: transform 1.5s;
+}
+.fs{
+    font-size: 10px;
+}
+.card-col{
+    padding: 0px;
+    width: 300px;
+    margin:10px;
+    transition: position 5s ease;
+}
+.card-col:hover{
+    position: relative;
+    top: -5px;
+}
+
+.col-card{
+    border: none;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px rgb(151, 148, 148);
+    transition: background-color .5s;
+}
+.col-card:hover{
+    background-color: #e6e6e6;
+}
+.col-card:hover img{
+    transform: scale(1.1);
+}
+.col-card:hover .button-bg{
+    background-color: whitesmoke;
+    transition: background-color .5s;
+}
+.col-card:hover .title{
+    color: whitesmoke;
+    transition: color .5s;
+}
+.col-card:hover .text{
+    color: whitesmoke;
+    transition: color .5s;
+}
+.button-bg{
+    background-color: rgb(179, 188, 197);
+    border: none;
+    color: rgb(56, 53, 53);
+}
+
+.button-bg,
+.button-bg:active,
+.button-bg:hover,
+.button-bg:focus {
+  border: none;
+  background-color:rgb(179, 188, 197);
+  color:  rgb(56, 53, 53);
+}

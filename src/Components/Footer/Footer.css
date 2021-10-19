@@ -1,0 +1,41 @@
+.footer{
+    background-color: #A47355;
+}
+.footer img{
+    width: 100px;
+    color: white;
+}
+.facebook-icon{
+    background-color: #285DA1;
+    padding: 5px 13px;
+    color: white;
+    border-radius: 5px;
+}
+.twitter-icon{
+    background-color: #03A9F4;
+    padding: 5px 13px;
+    color: white;
+    border-radius: 5px;
+}
+.pinterest-icon{
+    background-color: #D2173F;
+    padding: 5px 13px;
+    color: white;
+    border-radius: 5px;
+}
+.footer ul{
+    list-style: none;
+    padding-left: 0;
+}
+.footer li{
+    color: white
+}
+.footer small{
+    color: white;
+}
+.footer p{
+    color:white;
+}
+.footer h5{
+    color: white;
+}

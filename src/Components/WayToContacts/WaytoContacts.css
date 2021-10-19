@@ -1,0 +1,19 @@
+.img-div{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    transition: background-color .5s;
+    position: relative;
+}
+.contact-way-col:hover .img-div{
+    background-color: #A47355;
+}
+.image{
+    width: 60px;
+    position: absolute;
+    top: 9%;
+    left: 10%;
+}
+.card-text small{
+    color: #A47355;
+}

@@ -1,0 +1,15 @@
+.appoinment-field{
+    background-color: #FFF5F3;
+}
+.formControl{
+    border: none !important;
+    background-color: #FFF5F3;
+}
+.formControll:focus{
+    background-color: #FFF5F3 !important;
+}
+
+.formControl{
+    border: none;
+    padding-top: 0px !important;
+}
