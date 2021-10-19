@@ -1,10 +1,11 @@
-import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, sendEmailVerification, updateProfile, onAuthStateChanged, signOut } from "firebase/auth";
+import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, sendEmailVerification, updateProfile, onAuthStateChanged, signOut,signInWithPopup,GoogleAuthProvider } from "firebase/auth";
 import { useEffect, useState } from "react";
 import initializeAuthentication from "../../firebase/firebase.init";
 
 initializeAuthentication();
 
 const useFirebase = () => {
+    const provider = new GoogleAuthProvider();
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('')
     const [user, setUser] = useState({});
@@ -65,7 +66,10 @@ const useFirebase = () => {
         return ()=> unsubscribed;
     }, [auth])
 
-
+const handleGoogleSignIn = () =>{
+    setIsLoading(true)
+ return signInWithPopup(auth, provider)
+}
     const handleSignOut = () => {
         signOut(auth)
             .then(() => {
@@ -87,6 +91,9 @@ const useFirebase = () => {
             .then(() => {
 
             })
+            .catch(error=>{
+                setError(error.message)
+            })
     }
 
 
@@ -96,6 +103,7 @@ const useFirebase = () => {
         handleNameChange,
         handleRegistration,
         handleSignIn,
+        handleGoogleSignIn,
         handleSignOut,
         isLoading,
         setIsLoading,

@@ -23,7 +23,7 @@
     transition: background-color .5s;
 }
 .col-card:hover{
-    background-color: #e6e6e6;
+    background-color: #A47355;
 }
 .col-card:hover img{
     transform: scale(1.1);
@@ -44,6 +44,12 @@
     background-color: rgb(179, 188, 197);
     border: none;
     color: rgb(56, 53, 53);
+}
+.height{
+    height: 216.71px !important;
+}
+.div-height{
+    height: 450px !important;
 }
 
 .button-bg,

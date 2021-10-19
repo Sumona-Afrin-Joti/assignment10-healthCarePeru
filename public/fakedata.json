@@ -2,15 +2,15 @@
     {
         "id": "1",
         "service_name": "Couple therapy",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad hic beatae pariatur qui temporibus accusantium ex iusto culpa commodi dicta.",
-        "img": "https://i.ibb.co/Syc0RY5/everwell-counselling-free-consultation-online-therapy-ontario-006.png",
+        "description": "Couples therapy is a type of psychotherapy in which a licensed therapist with clinical experience working with couples",
+        "img": "https://image.shutterstock.com/image-vector/couple-psychotherapy-session-semi-flat-260nw-1636548592.jpg",
         "service_day": "Saturday to Tuesday",
         "service_time": "8:00am to 1:00pm and 3pm to 5pm"
     },
     {
         "id": "2",
         "service_name": "Antidepression therapy",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad hic beatae pariatur qui temporibus accusantium ex iusto culpa commodi dicta.",
+        "description": "Depression is the main cause of disability worldwide, according to the World Health Organization (WHO).",
         "img": "https://i.ibb.co/8stHqs7/depression-G-950887280-860x573.png",
         "service_day": "Saturday to Tuesday",
         "service_time": "8:00am to 1:00pm and 3pm to 5pm"
@@ -18,7 +18,7 @@
     {
         "id": "3",
         "service_name": "Children therapy",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad hic beatae pariatur qui temporibus accusantium ex iusto culpa commodi dicta.",
+        "description": "Therapists give praise and support as kids learn. They help kids believe in themselves and find their strengths.",
         "img": "https://i.ibb.co/SJGfcKz/child-therapy.webp",
         "service_day": "Saturday to Tuesday",
         "service_time": "8:00am to 1:00pm and 3pm to 5pm"
@@ -26,7 +26,7 @@
     {
         "id": "4",
         "service_name": "Post Divorse therapy",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad hic beatae pariatur qui temporibus accusantium ex iusto culpa commodi dicta.",
+        "description": "Post divorce counseling is therapy for those who have finalized divorce and are now having to make decisions for their future;",
         "img": "https://i.ibb.co/S5SXMzB/post-divorce-Metro-DC-9-1184x789.png",
         "service_day": "Saturday to Tuesday",
         "service_time": "8:00am to 1:00pm and 3pm to 5pm"
@@ -34,7 +34,7 @@
     {
         "id": "5",
         "service_name": "Indivisual therapy",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad hic beatae pariatur qui temporibus accusantium ex iusto culpa commodi dicta.",
+        "description": "Individual therapy is one type of psychotherapy in which a trained professional helps a single person work through.",
         "img": "https://i.ibb.co/s12w9y7/indivisual-therapy.png",
         "service_day": "Saturday to Tuesday",
         "service_time": "8:00am to 1:00pm and 3pm to 5pm"
@@ -42,7 +42,7 @@
     {
         "id": "6",
         "service_name": "Anti Stress therapy",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad hic beatae pariatur qui temporibus accusantium ex iusto culpa commodi dicta.",
+        "description": "Psychotherapy is a popular method for most emotional issues related to stress. In therapy... ",
         "img": "https://i.ibb.co/zQY5WNp/385-md.png",
         "service_day": "Saturday to Tuesday",
         "service_time": "8:00am to 1:00pm and 3pm to 5pm"
@@ -50,7 +50,7 @@
     {
         "id": "7",
         "service_name": "eating disorders",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad hic beatae pariatur qui temporibus accusantium ex iusto culpa commodi dicta.",
+        "description": "Eating disorders can occur in people of any age, sex, race and of all body weights, shapes and sizes.",
         "img": "https://i.ibb.co/pPTmD0r/eating-disorder.png",
         "service_day": "Saturday to Tuesday",
         "service_time": "8:00am to 1:00pm and 3pm to 5pm"
@@ -58,7 +58,7 @@
     {
         "id": "8",
         "service_name": "attention deficit hyperactivity disorder",
-        "description": "Attention-deficit/hyperactivity disorder (ADHD) is a chronic condition that affects millions of children and often continues into adulthood. ADHD includes a combination of persistent problems, such as difficulty sustaining attention, hyperactivity and impulsive behavior.",
+        "description": "Attention-deficit/hyperactivity disorder (ADHD) is a chronic condition that affects millions of children and often",
         "img": "https://i.ibb.co/DCtbcxx/70424536-m-1200x800.png",
         "service_day": "Saturday to Tuesday",
         "service_time": "8:00am to 1:00pm and 3pm to 5pm"

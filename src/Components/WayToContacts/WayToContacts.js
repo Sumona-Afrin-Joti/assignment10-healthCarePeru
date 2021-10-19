@@ -43,6 +43,8 @@ const WayToContacts = () => {
                                 </Card.Title>
                                 <Card.Text className="card-text">
                                     {way.description}
+                                </Card.Text>
+                                <Card.Text className="card-text">
                                     <small>{way.contact}</small>
                                 </Card.Text>
                             </Card.Body>

@@ -7,9 +7,11 @@ const Service = ({ service }) => {
 
     return (
         <Col className="card-col">
-            <Card className="col-card h-100">
+            <Card className="col-card div-height">
+                <div className="height">
+                    <Card.Img variant="top" className="img-fluid img" src={img} />
+                </div>
 
-                <Card.Img variant="top" height="300px" className="img-fluid img" src={img} />
 
 
                 <Card.Body>
@@ -20,7 +22,7 @@ const Service = ({ service }) => {
                         <small className="text"> {description}</small>
                     </Card.Text>
 
-                    <NavLink to= {`/learnMore/${id}`}>
+                    <NavLink to={`/learnMore/${id}`}>
 
                         <Button className="button-bg">Learn More</Button>
 

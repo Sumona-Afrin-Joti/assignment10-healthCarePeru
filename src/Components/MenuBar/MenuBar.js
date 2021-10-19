@@ -7,7 +7,7 @@ import useAuth from '../../hooks/useAuth/useAuth';
 
 const MenuBar = () => {
 
-  const { user,handleSignOut } = useAuth();
+  const { user, handleSignOut } = useAuth();
   console.log(user);
   return (
 
@@ -46,19 +46,28 @@ const MenuBar = () => {
 
           {
             !user?.displayName ?
-              <><Nav.Link as={NavLink} activeStyle={{
+              <Nav.Link as={NavLink} activeStyle={{
                 fontWeight: "bold",
                 color: "#A47355"
               }} to="/signIn">Sign in</Nav.Link>
-                <Nav.Link as={NavLink} activeStyle={{
+
+              :
+              <>
+                <small className="user-name"> {user.displayName} </small>
+                <Nav.Link as={NavLink} onClick={handleSignOut} activeStyle={{
                   fontWeight: "bold",
                   color: "#A47355"
-                }} to="/signUp">Sign up</Nav.Link></>
-              :
-              <Nav.Link as={NavLink} onClick={handleSignOut} activeStyle={{
-                fontWeight: "bold",
-                color: "#A47355"
-              }} to="/">Sign Out</Nav.Link>
+                }} to="/">Sign Out</Nav.Link>
+              </>
+
+          }
+          {
+            !user?.displayName &&
+            <Nav.Link as={NavLink} activeStyle={{
+              fontWeight: "bold",
+              color: "#A47355"
+            }} to="/signUp">Sign up</Nav.Link>
+
           }
 
         </Navbar.Collapse>
